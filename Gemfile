@@ -13,10 +13,12 @@ gem 'rails', '3.0.3'
 group :development do
   gem 'capistrano'
   gem 'capistrano_colors'
+  gem 'sqlite3-ruby', :require => 'sqlite3'
 end
 
-gem 'sqlite3-ruby', :require => 'sqlite3'
-
+group :production do
+  gem 'mysql'
+end
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
 # gem 'ruby-debug'
 # gem 'ruby-debug19'
