@@ -13,12 +13,9 @@ gem 'rails', '3.0.3'
 group :development do
   gem 'capistrano'
   gem 'capistrano_colors'
-  gem 'sqlite3-ruby', :require => 'sqlite3'
 end
 
-group :production do
-  gem 'mysql', '2.8.1'
-end
+gem 'sqlite3-ruby', :require => 'sqlite3'
 
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
 # gem 'ruby-debug'
@@ -52,6 +49,8 @@ gem 'refinerycms-inquiries',    '~> 0.9'
 
 # Add i18n support (optional, you can remove this if you really want to).
 gem 'refinerycms-i18n',         '~> 0.9'
+# RMagick
+gem 'dragonfly', :git => 'git://github.com/refinerycms/dragonfly.git', :branch => 'imagemagick'
 
 # END REFINERY CMS ============================================================
 
