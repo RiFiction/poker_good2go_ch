@@ -34,6 +34,13 @@ GEM
       activesupport
     babosa (0.2.1)
     builder (2.1.2)
+    capistrano (2.5.19)
+      highline
+      net-scp (>= 1.0.0)
+      net-sftp (>= 2.0.0)
+      net-ssh (>= 2.0.14)
+      net-ssh-gateway (>= 1.0.0)
+    capistrano_colors (0.5.3)
     dragonfly (0.8.1)
       rack
     erubis (2.6.6)
@@ -41,6 +48,7 @@ GEM
     filters_spam (0.3)
     friendly_id (3.1.8)
       babosa (~> 0.2.0)
+    highline (1.6.1)
     i18n (0.5.0)
     mail (2.2.14)
       activesupport (>= 2.3.6)
@@ -50,6 +58,13 @@ GEM
     mime-types (1.16)
     moretea-awesome_nested_set (1.4.3.1)
       activerecord (~> 3.0.0)
+    net-scp (1.0.4)
+      net-ssh (>= 1.99.1)
+    net-sftp (2.0.5)
+      net-ssh (>= 2.0.9)
+    net-ssh (2.0.24)
+    net-ssh-gateway (1.0.1)
+      net-ssh (>= 1.99.1)
     polyglot (0.3.1)
     rack (1.2.1)
     rack-cache (0.5.3)
@@ -106,6 +121,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  capistrano
+  capistrano_colors
   rails (= 3.0.3)
   refinerycms (~> 0.9.8.9)
   refinerycms-i18n (~> 0.9)
