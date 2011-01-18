@@ -1,18 +1,3 @@
-GIT
-  remote: git://github.com/refinerycms/dragonfly.git
-  revision: 724e64081c723731af5afe32c8a8b028119ecaa7
-  branch: imagemagick
-  specs:
-    dragonfly (0.8.2)
-      rack
-
-GIT
-  remote: git://github.com/resolve/refinerycms-news.git
-  revision: ba4855841778b9f59ff37dad4d09499c1cfac6b4
-  specs:
-    refinerycms-news (1.0)
-      refinerycms (~> 0.9.8)
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -49,22 +34,14 @@ GEM
       activesupport
     babosa (0.2.1)
     builder (2.1.2)
-    compass (0.10.6)
-      haml (>= 3.0.4)
+    dragonfly (0.8.1)
+      rack
     erubis (2.6.6)
       abstract (>= 1.0.0)
-    fancy-buttons (1.0.4)
-      compass (>= 0.10.6)
     filters_spam (0.3)
     friendly_id (3.1.8)
       babosa (~> 0.2.0)
-    grackle (0.1.10)
-      json
-      mime-types
-      oauth
-    haml (3.0.25)
     i18n (0.5.0)
-    json (1.4.6)
     mail (2.2.14)
       activesupport (>= 2.3.6)
       i18n (>= 0.4.0)
@@ -73,7 +50,6 @@ GEM
     mime-types (1.16)
     moretea-awesome_nested_set (1.4.3.1)
       activerecord (~> 3.0.0)
-    oauth (0.4.4)
     polyglot (0.3.1)
     rack (1.2.1)
     rack-cache (0.5.3)
@@ -114,8 +90,6 @@ GEM
       routing-filter (~> 0.1.6)
     refinerycms-inquiries (0.9.8.10)
       filters_spam (~> 0.2)
-    refinerycms-theming (0.9.8.2)
-      refinerycms (>= 0.9.8)
     routing-filter (0.1.7)
       actionpack
     sqlite3 (1.3.3)
@@ -125,8 +99,6 @@ GEM
     treetop (1.4.9)
       polyglot (>= 0.3.1)
     truncate_html (0.4.0)
-    twitter-text (1.3.1)
-      actionpack
     tzinfo (0.3.24)
     will_paginate (3.0.pre2)
 
@@ -134,16 +106,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  compass (>= 0.10.2)
-  dragonfly!
-  fancy-buttons
-  grackle
-  haml
   rails (= 3.0.3)
-  refinerycms (~> 0.9.8.5)
-  refinerycms-i18n (~> 0.9.8.7)
-  refinerycms-inquiries (~> 0.9.8.8)
-  refinerycms-news!
-  refinerycms-theming (~> 0.9.8)
+  refinerycms (~> 0.9.8.9)
+  refinerycms-i18n (~> 0.9)
+  refinerycms-inquiries (~> 0.9)
   sqlite3-ruby
-  twitter-text
