@@ -124,7 +124,7 @@ PLATFORMS
 DEPENDENCIES
   capistrano
   capistrano_colors
-  mysql
+  mysql (= 2.8.1)
   rails (= 3.0.3)
   refinerycms (~> 0.9.8.9)
   refinerycms-i18n (~> 0.9)
